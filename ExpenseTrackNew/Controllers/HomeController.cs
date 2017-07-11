@@ -13,10 +13,15 @@ namespace ExpenseTrackNew.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult AddExpense()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This is Add Expense Page.";
 
+            return View();
+        }
+
+        public ActionResult ViewExpense()
+        {
             return View();
         }
 
